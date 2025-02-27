@@ -1,0 +1,31 @@
+
+
+1. Paste This after buildTypes close in android>app>build.gradle
+
+//**********************Start Android Flavor Setup **********************************//
+
+flavorDimensions "app"
+
+productFlavors {
+        dev{
+            dimension "app"
+            applicationIdSuffix ".dev"
+            versionNameSuffix "-dev"
+        }
+
+        prod{
+            dimension "app"
+        }
+    }
+
+//********************** End Android Flavor Setup **********************************//
+
+2. Change app name with string variables
+ - go to android>app>src>main>AndroidManifest.xml
+ - rename [android:label="@string/appName"] in <application> tag
+
+3. Generate app icons and splash by changing images 
+
+ - buildSplash       : flutter pub run flutter_native_splash:create
+ - buildLauncherIcon : flutter pub get && flutter pub run flutter_launcher_icons
+ - buildRunner       : flutter packages pub run build_runner build --delete-conflicting-outputs

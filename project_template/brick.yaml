@@ -1,0 +1,32 @@
+name: new_flutter_app
+description: A new brick created with the Mason CLI.
+version: 0.1.0+1
+
+# The following defines the environment for the current brick.
+# It includes the version of mason that the brick requires.
+environment:
+  mason: ^0.1.0
+vars:
+  app_name:
+    type: string
+    description: create a new flutter project template
+    default: My App
+    prompt: What is the name of your app?
+
+  app_description:
+    type: string
+    description: new flutter project template app description
+    default: A new Flutter project.
+    prompt: What is the description of your app?
+
+  base_url:
+    type: string
+    description: provide base url for api (no http/https needed)
+    default: api.example.com
+    prompt: What is the base url for api?
+
+  first_endpoint:
+    type: string
+    description: provide first endpoint for api
+    default: data
+    prompt: What is the first endpoint for api?
