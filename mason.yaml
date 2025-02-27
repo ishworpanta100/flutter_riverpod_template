@@ -7,7 +7,7 @@ bricks:
   # hello: 0.1.0+2
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
-  # widget:
-  #   git:
-  #     url: https://github.com/felangel/mason.git
-  #     path: bricks/widget
+  project_template:
+    git:
+      url: https://github.com/ishworpanta100/flutter_riverpod_template.git
+      path: project_template
