@@ -1,2 +1,4 @@
 dart pub global activate mason_cli
 mason get
+
+mason make new_flutter_app  -o /path/to/new_created_flutter_app/
