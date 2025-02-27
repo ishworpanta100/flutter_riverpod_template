@@ -1,31 +1,18 @@
-# Flutter Riverpod Template Setup
+********** Clone Repo *********************
+git clone https://github.com/ishworpanta100/flutter_riverpod_template
 
-## Clone Repository
-```sh
- git clone https://github.com/ishworpanta100/flutter_riverpod_template
-```
-<button onclick="navigator.clipboard.writeText('git clone https://github.com/ishworpanta100/flutter_riverpod_template')">Copy</button>
 
-## Activate Mason CLI
-```sh
- dart pub global activate mason_cli
-```
-<button onclick="navigator.clipboard.writeText('dart pub global activate mason_cli')">Copy</button>
+********* Activate Mason Cli **************
+dart pub global activate mason_cli
 
-## Get Mason from GitHub
-```sh
- mason get
-```
-<button onclick="navigator.clipboard.writeText('mason get')">Copy</button>
 
-## List Local Mason Templates
-```sh
- mason -ls
-```
-<button onclick="navigator.clipboard.writeText('mason -ls')">Copy</button>
+********* Getting Mason From Github *******
+mason get
 
-## Create and Update Newly Created Flutter App
-```sh
- mason make new_flutter_app -o /path/to/new_created_flutter_app/
-```
-<button onclick="navigator.clipboard.writeText('mason make new_flutter_app -o /path/to/new_created_flutter_app/')">Copy</button>
+
+********* Listing Local Mason *************
+mason -ls
+
+
+******** Creating and updating newly created flutter app **********
+mason make new_flutter_app  -o /path/to/new_created_flutter_app/
