@@ -20,6 +20,8 @@ mason get
 mason -ls
 ```
 
+##
+
 ## Create and Update Newly Created Flutter App
 ```sh
 mason make new_flutter_app -o /path/to/new_created_flutter_app/
