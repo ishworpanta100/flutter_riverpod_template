@@ -6,6 +6,7 @@ version: 0.1.0+1
 # It includes the version of mason that the brick requires.
 environment:
   mason: ^0.1.0
+  
 vars:
   app_name:
     type: string

@@ -12,7 +12,7 @@ bricks:
       url: https://github.com/ishworpanta100/flutter_riverpod_template.git
       path: project_template
 
-  new_flutter_feature:
-    git:
-      url: https://github.com/ishworpanta100/flutter_riverpod_template.git
-      path: app_feature
+  # new_flutter_feature:
+  #   git:
+  #     url: https://github.com/ishworpanta100/flutter_riverpod_template.git
+  #     path: app_feature
