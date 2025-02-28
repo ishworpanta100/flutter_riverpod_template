@@ -1,0 +1,39 @@
+name: new_flutter_feature
+description: A new brick created with the Mason CLI.
+version: 0.1.0+1
+
+# The following defines the environment for the current brick.
+# It includes the version of mason that the brick requires.
+environment:
+  mason: ^0.1.0
+  
+vars:
+  feature_name:
+    type: string
+    description: create a new feature template in flutter
+    default: new_feature
+    prompt: What is the name of your feature?
+
+  api_base_key:
+    type: string
+    description: api base key like articles
+    default: data
+    prompt: What is the name of your base api key?
+
+  api_count_key:
+    type: string
+    description: api count key
+    default: count
+    prompt: What is the name of your api count key?
+
+  api_sub_key_one:
+    type: string
+    description: list data api first key
+    default: title
+    prompt: What is the name of your api list first key?
+
+  api_sub_key_two:
+    type: string
+    description: list data api second key
+    default: description
+    prompt: What is the name of your api list second key?
